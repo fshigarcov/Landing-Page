@@ -1,0 +1,64 @@
+@import url("../css/reset.css");
+
+.nameSurname {
+	width: 1440px;
+	height: 200px;
+	background: #e5e000;
+}
+.nameSurname h1 {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	color: #ffffff;
+}
+.img {
+	background: url("../img/driko.jpg");
+	width: 1440px;
+	height: 1080px;
+}
+.blockInfo {
+	background: #e5e000;
+	width: 1440px;
+	height: 100px;
+}
+.blockInfo p {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	color: #ffffff;
+}
+.aboutMe p {
+	width: 1280px;
+	height: 637px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 57px;
+
+	color: #000000;
+}
+.aboutMe h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+}
+.footer {
+	width: 1440px;
+	height: 200px;
+	background: #e5e000;
+}
+.imgLogo {
+	background: url("../img/logo.png");
+	width: 205px;
+	height: 45px;
+}
+.footer p {
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 57px;
+	color: #ffffff;
+}
