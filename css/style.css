@@ -1,7 +1,10 @@
 @import url("../css/reset.css");
 
-.nameSurname {
+
+.pageContainer{
 	width: 1440px;
+}
+.nameSurname {
 	height: 200px;
 	background: #e5e000;
 }
@@ -13,12 +16,10 @@
 }
 .img {
 	background: url("../img/driko.jpg");
-	width: 1440px;
 	height: 1080px;
 }
 .blockInfo {
 	background: #e5e000;
-	width: 1440px;
 	height: 100px;
 }
 .blockInfo p {
@@ -30,7 +31,6 @@
 	color: #ffffff;
 }
 .aboutMe p {
-	width: 1280px;
 	height: 637px;
 	font-family: Helvetica;
 	font-style: normal;
@@ -47,7 +47,6 @@
 	line-height: 57px;
 }
 .footer {
-	width: 1440px;
 	height: 200px;
 	background: #e5e000;
 }
