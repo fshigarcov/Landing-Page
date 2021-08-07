@@ -1,72 +1,21 @@
 @import url("../css/reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.pageContainer {
-	width: 1440px;
+.container {
+	//width: 1440px;
+	//margin: auto;
 }
-.header {
-	height: 200px;
-	background: #e5e000;
-}
-.header h1 {
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	color: #ffffff;
-}
-.nameSurname h1 {
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	color: #ffffff;
-}
-.img {
-	background: url("../img/driko.jpg") no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 1080px;
-}
-.blockLinks {
-	background: #e5e000;
-	height: 100px;
-}
-.blockLinks a {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 25px;
-	line-height: 29px;
-	color: #ffffff;
-	text-decoration: none;
-}
-.aboutMe p {
-	height: 637px;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-size: 50px;
-	line-height: 57px;
 
-	color: #000000;
+header {
+	height: 60px;
+	background-color: #fe1a19;
 }
-.aboutMe h2 {
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 50px;
-	line-height: 57px;
-}
-.footer {
-	height: 200px;
-	background: #e5e000;
-}
-.imgLogo {
-	background: url("../img/logo.png");
-	width: 205px;
-	height: 45px;
-}
-.footer p {
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	color: #ffffff;
+
+section {
+	display: inline-block;
+	border: 5px solid #e5e000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	height: 800px;
+	width: 400px;
+	margin: 50px auto;
 }
