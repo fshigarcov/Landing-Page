@@ -1,11 +1,11 @@
 @import url("reset.css");
 
-header,
-footer {
+.header,
+.footer {
 	background-color: #fe1a19;
 	height: 60px;
 }
-footer p {
+.footer p {
 	font-family: Helvetica;
 	font-weight: bold;
 	font-size: 20px;
@@ -13,7 +13,7 @@ footer p {
 	color: #ffffff;
 	padding: 20px 0px 0px 20px;
 }
-header p {
+.header p {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
@@ -21,7 +21,7 @@ header p {
 	padding: 20px 0px 0px 20px;
 	position: absolute;
 }
-section {
+.section {
 	position: relative;
 	width: 400px;
 	height: 800px;
@@ -33,7 +33,7 @@ section {
 	vertical-align: top;
 }
 
-section h2 {
+.section h2 {
 	position: absolute;
 	font-family: Helvetica;
 	font-style: normal;
@@ -43,7 +43,7 @@ section h2 {
 	top: 33px;
 	left: 33px;
 }
-section ul {
+.section ul {
 	position: relative;
 	font-family: Times New Roman;
 	font-size: 20px;
