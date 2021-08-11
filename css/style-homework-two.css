@@ -1,11 +1,11 @@
 @import url("reset.css");
 
-.header,
-.footer {
+.header-page-two,
+.footer-page-two {
 	background-color: #fe1a19;
 	height: 60px;
 }
-.footer p {
+.footer-page-two p {
 	font-family: Helvetica;
 	font-weight: bold;
 	font-size: 20px;
@@ -13,7 +13,7 @@
 	color: #ffffff;
 	padding: 20px 0px 0px 20px;
 }
-.header p {
+.header-page-two p {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
