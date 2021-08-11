@@ -72,6 +72,7 @@
 	color: #ffffff;
 }
 
+/* homework two starting*/
 .header-page-two,
 .footer-page-two {
 	background-color: #fe1a19;
@@ -132,4 +133,84 @@
 	padding: 0px 0px 20px 0px;
 	text-align: left;
 }
+/* homework three flex starting*/
+header {
+	display: flex;
+	position: sticky;
+	justify-content: space-around;
+	top: 0;
+	left: 0;
+	margin: auto;
+	flex-wrap: wrap;
+}
 
+header p {
+	display: flex;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #e50043;
+	flex-wrap: wrap;
+}
+
+header li {
+	display: inline-block;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #e50043;
+	flex-wrap: wrap;
+	padding: 0px 0px 0px 25px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.hero-img {
+	background: url("../img/evian_origins_logo.png") no-repeat;
+	width: 1440px;
+	height: 950px;
+	top: 140px;
+	text-align: center;
+}
+
+section p {
+	position: absolute;
+	color: #e50043;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 115px;
+	text-align: center;
+	align-items: center;
+	top: 475px;
+}
+
+.section-two {
+	display: flex;
+	justify-content: center;
+}
+
+.section-flex-container-two {
+	top: 150px;
+	position: relative;
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #f8bfc7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.section-flex-container-two p {
+	color: black;
+	font-size: 25px;
+	line-height: 29px;
+}
