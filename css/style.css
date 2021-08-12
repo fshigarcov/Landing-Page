@@ -97,7 +97,7 @@
 	position: absolute;
 }
 
-.main-container-page-two{
+.main-container-page-two {
 	display: block;
 	text-align: center;
 }
@@ -134,7 +134,7 @@
 	text-align: left;
 }
 /* homework three flex starting*/
-header {
+.header-flex {
 	display: flex;
 	position: sticky;
 	justify-content: space-around;
@@ -145,6 +145,7 @@ header {
 }
 
 header p {
+	padding: 50px 50px 50px;
 	display: flex;
 	font-family: Arial;
 	font-style: normal;
@@ -156,6 +157,7 @@ header p {
 }
 
 header li {
+	padding: 50px 0px 0px 25px;
 	display: inline-block;
 	font-family: Arial;
 	font-style: normal;
@@ -164,7 +166,6 @@ header li {
 	line-height: 57px;
 	color: #e50043;
 	flex-wrap: wrap;
-	padding: 0px 0px 0px 25px;
 }
 
 .flex-container {
@@ -200,17 +201,85 @@ section p {
 }
 
 .section-flex-container-two {
-	top: 150px;
 	position: relative;
 	width: 1040px;
-	height: 280px;
+	top: 150px;
 	border: 3px solid #f8bfc7;
 	box-sizing: border-box;
 	border-radius: 20px;
 }
 
 .section-flex-container-two p {
+	top: 0;
+	left: 0;
+	padding: 25px;
+	position: relative;
+	display: inline-block;
 	color: black;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	letter-spacing: 0.05em;
+	text-align: left;
+}
+
+.section-three {
+	position: relative;
+	top: 150px;
+}
+.container-section-three {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	top: 150px;
+}
+
+.img-bottles-block {
+	background: url("../img/wang.png");
+	background-repeat: no-repeat;
+	width: 281px;
+	height: 863px;
+	padding: 50px;
+}
+.img-bottles-block-two {
+	background: url("../img/chiara.png");
+	background-repeat: no-repeat;
+	width: 281px;
+	height: 863px;
+	padding: 50px;
+}
+
+.img-bottles-block-three {
+	background: url("../img/blue.png");
+	background-repeat: no-repeat;
+	width: 281px;
+	height: 863px;
+	padding: 50px;
+}
+
+.section-four {
+	display: flex;
+	justify-content: center;
+}
+.container-section-four {
+	position: relative;
+	top: 156px;
+	width: 1040px;
+	border: 3px solid #f8bfc7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.container-section-four p {
+	top: 0;
+	left: 0;
+	padding: 25px;
+	position: relative;
+	display: inline-block;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 25px;
 	line-height: 29px;
 }
