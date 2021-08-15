@@ -300,5 +300,19 @@ header li {
 }
 
 .footer-container-copyright {
-	
+	position: relative;
+	background: #f8bfc7;
+	top: 686px;
+}
+
+.footer-container-copyright p {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	padding: 50px;
 }
