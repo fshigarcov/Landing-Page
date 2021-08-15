@@ -135,17 +135,19 @@
 }
 /* homework three flex starting*/
 .header-flex {
-	display: flex;
 	position: sticky;
-	justify-content: space-around;
-	top: 0;
+	z-index: 3;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	display: flex;
+	justify-content: space-between;
 	left: 0;
-	margin: auto;
-	flex-wrap: wrap;
+	top: 0;
 }
 
 header p {
-	padding: 50px 50px 50px;
+	padding: 50px;
 	display: flex;
 	font-family: Arial;
 	font-style: normal;
@@ -157,7 +159,7 @@ header p {
 }
 
 header li {
-	padding: 50px 0px 0px 25px;
+	padding: 50px 50px 0px 0px;
 	display: inline-block;
 	font-family: Arial;
 	font-style: normal;
@@ -168,118 +170,135 @@ header li {
 	flex-wrap: wrap;
 }
 
-.flex-container {
+.flex-container-section-one {
+	z-index: 2;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.hero-img {
-	background: url("../img/evian_origins_logo.png") no-repeat;
-	width: 1440px;
+	position: relative;
+	background: url("../img/evian_origins_logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 	height: 950px;
-	top: 140px;
-	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
-section p {
-	position: absolute;
-	color: #e50043;
+.flex-container-section-one p {
+	position: relative;
 	font-family: Arial;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 100px;
 	line-height: 115px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	top: 475px;
+	top: 140px;
+	color: #e50043;
 }
 
-.section-two {
+.flex-container-section-two {
+	position: relative;
 	display: flex;
+	top: 150px;
 	justify-content: center;
 }
 
-.section-flex-container-two {
-	position: relative;
-	width: 1040px;
-	top: 150px;
+.container-text {
 	border: 3px solid #f8bfc7;
 	box-sizing: border-box;
 	border-radius: 20px;
+	width: 1040px;
 }
-
-.section-flex-container-two p {
-	top: 0;
-	left: 0;
-	padding: 25px;
-	position: relative;
-	display: inline-block;
-	color: black;
+.flex-container-section-two p {
 	font-family: Arial;
 	font-size: 25px;
 	line-height: 29px;
 	align-items: center;
 	letter-spacing: 0.05em;
+	color: #000000;
 	text-align: left;
+	padding: 24px;
 }
 
-.section-three {
-	position: relative;
-	top: 150px;
-}
-.container-section-three {
+.flex-container-section-three {
 	display: flex;
 	position: relative;
-	justify-content: center;
-	top: 150px;
+	top: 300px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
 }
 
-.img-bottles-block {
+.container-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1040px;
+}
+.img-one {
 	background: url("../img/wang.png");
 	background-repeat: no-repeat;
-	width: 281px;
 	height: 863px;
-	padding: 50px;
-}
-.img-bottles-block-two {
-	background: url("../img/chiara.png");
-	background-repeat: no-repeat;
-	width: 281px;
-	height: 863px;
-	padding: 50px;
+	padding: 0px 100px 0px 0px;
 }
 
-.img-bottles-block-three {
+.img-two {
 	background: url("../img/blue.png");
 	background-repeat: no-repeat;
-	width: 281px;
 	height: 863px;
-	padding: 50px;
+	padding: 0px 100px 0px 0px;
 }
 
-.section-four {
-	display: flex;
-	justify-content: center;
-}
-.container-section-four {
-	position: relative;
-	top: 156px;
-	width: 1040px;
-	border: 3px solid #f8bfc7;
-	box-sizing: border-box;
-	border-radius: 20px;
+.img-three {
+	background: url("../img/chiara.png");
+	background-repeat: no-repeat;
+	height: 863px;
+	padding: 0px 50px 0px 0px;
 }
 
-.container-section-four p {
-	top: 0;
-	left: 0;
-	padding: 25px;
+.flex-container-section-three p {
+	margin: 0px 0px 0px 17px;
 	position: relative;
-	display: inline-block;
+	top: 911px;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 25px;
 	line-height: 29px;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+
+.flex-container-section-four {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	top: 500px;
+}
+
+.container-text-img {
+	background: url("../img/glass.png") left no-repeat;
+	background-size: 110px;
+	background-position: 80px;
+	border: 3px solid #f8bfc7;
+	border-radius: 20px;
+}
+
+.container-text-two p {
+	position: relative;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	color: #000000;
+	align-items: left;
+	display: flex;
+	text-align: left;
+	margin: 30px 30px 30px 240px;
+}
+
+.footer-container-copyright {
+	
 }
