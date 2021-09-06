@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .pageContainer {
-	width: 1440px;
+	width: 100%;
 }
 .header {
 	height: 200px;
-	background: #e5e000;
+	background: BurlyWood;
 }
 
 .header h1 {
@@ -14,6 +14,9 @@
 	font-size: 50px;
 	line-height: 57px;
 	color: #ffffff;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 50px;
 }
 .nameSurname h1 {
 	font-family: Helvetica;
@@ -22,14 +25,17 @@
 	color: #ffffff;
 }
 .img {
-	background: url("../img/driko.jpg") no-repeat;
+	background: url("../img/2520298313_b99575fff9_b.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 1080px;
+	padding-bottom: 100%;
 }
 .blockLinks {
-	background: #e5e000;
+	background: BurlyWood;
 	height: 100px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 30px;
 }
 .blockLinks a {
 	font-family: "Roboto", sans-serif;
@@ -41,15 +47,19 @@
 	text-decoration: none;
 }
 .aboutMe p {
+	background-color: cadetblue;
 	height: 637px;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 57px;
-
 	color: #000000;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 30px;
 }
 .aboutMe h2 {
+	background-color: cadetblue;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -58,7 +68,10 @@
 }
 .footer {
 	height: 200px;
-	background: #e5e000;
+	background: BurlyWood;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
 }
 .imgLogo {
 	background: url("../img/logo.png");
@@ -212,7 +225,6 @@ header li {
 	justify-content: center;
 	margin: 150px 0px 0px 0px;
 	height: 863px;
-
 }
 .img-one {
 	background: url("../img/wang.png");
@@ -273,5 +285,89 @@ header li {
 	font-family: Arial;
 	font-size: 50px;
 	color: #ffffff;
+	padding: 50px;
+}
+
+/* homework four (responsive) starting*/
+
+.responsive-header {
+	width: 100%;
+	background-color: #ffe138;
+}
+
+.responsive-header p {
+	color: black;
+	font-family: Times New Roman;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+}
+
+.columns {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: stretch;
+	box-sizing: border-box;
+	padding: 70px;
+}
+
+.column {
+	width: calc((100% - 150px) / 3);
+	border: 1px solid #000000;
+}
+
+.column h2{
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 30px;
+}
+
+.column p {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-size: 20px;
+	padding: 30px;
+}
+
+.column-img1 {
+	background: url("../img/Meta\ Side\ Table1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	height: 600px;
+}
+
+.column-img2{
+	background: url("../img/Click\ Shelf2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	height: 600px;
+}
+
+.column-img3{
+	background: url("../img/Float\ Shelf3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	height: 600px;
+}
+
+.responsive-footer{
+	width: 100%;
+	background-color: #ffe138;
+}
+
+.responsive-footer p{
+	color: black;
+	font-family: Times New Roman;
+	font-size: 50px;
+	text-align: center;
 	padding: 50px;
 }
