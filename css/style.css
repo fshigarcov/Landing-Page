@@ -314,6 +314,7 @@ header li {
 .column {
 	width: calc((100% - 150px) / 3);
 	border: 1px solid #000000;
+	height: 100%;
 }
 
 .column h2 {
@@ -336,7 +337,7 @@ header li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 600px;
 }
 
 .column-img2 {
@@ -344,7 +345,7 @@ header li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 600px;
 }
 
 .column-img3 {
@@ -352,7 +353,7 @@ header li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 600px;
 }
 
 .responsive-footer {
