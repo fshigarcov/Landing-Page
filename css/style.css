@@ -371,6 +371,7 @@ header li {
 
 /* homework five (adaptive) starting*/
 
+
 * {
 	box-sizing: border-box;
 }
@@ -390,6 +391,8 @@ header li {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
 }
 
 .column {
@@ -418,4 +421,22 @@ header li {
 	font-size: 25px;
 	color: white;
 	padding: 35px;
+}
+
+@media screen and (max-width: 768px) {
+	.column {
+		display: flex;
+		width: 300px;
+		height: 200px;
+		border: 5px solid #000000;
+		margin: 20px;
+	}
+	.column p {
+		font-family: Helvetica;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: black;
+		margin: auto;
+	}
 }
