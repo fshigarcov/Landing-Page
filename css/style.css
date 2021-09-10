@@ -303,7 +303,7 @@ header li {
 	padding: 50px;
 }
 
-.columns {
+.columns-responsive {
 	display: flex;
 	margin: auto;
 	justify-content: space-between;
@@ -311,13 +311,13 @@ header li {
 	padding: 70px;
 }
 
-.column {
+.column-responsive-image {
 	width: calc((100% - 150px) / 3);
 	border: 1px solid #000000;
 	height: 100%;
 }
 
-.column h2 {
+.column-responsive-image h2 {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: bold;
@@ -325,7 +325,7 @@ header li {
 	padding: 30px;
 }
 
-.column p {
+.column-responsive-image p {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-size: 20px;
@@ -367,4 +367,55 @@ header li {
 	font-size: 50px;
 	text-align: center;
 	padding: 50px;
+}
+
+/* homework five (adaptive) starting*/
+
+* {
+	box-sizing: border-box;
+}
+
+.adaptive-header {
+	background-color: #0000ff;
+}
+
+.adaptive-header p {
+	font-family: Helvetica;
+	font-size: 25px;
+	color: white;
+	padding: 35px;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.column {
+	display: flex;
+	width: 600px;
+	height: 300px;
+	border: 5px solid #000000;
+	margin: 20px;
+}
+
+.column p {
+	font-family: Helvetica;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	margin: auto;
+}
+
+.adaptive-footer {
+	background-color: #0000ff;
+}
+
+.adaptive-footer p {
+	font-family: Helvetica;
+	font-size: 25px;
+	color: white;
+	padding: 35px;
 }
