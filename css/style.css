@@ -295,6 +295,9 @@ header li {
 
 /* homework four (responsive) starting*/
 
+html{
+	font-size: 20px;
+}
 .responsive-header {
 	background-color: #ffe138;
 }
@@ -310,7 +313,7 @@ header li {
 .columns-responsive {
 	display: flex;
 	justify-content: space-evenly;
-	margin: 7rem 1vw;
+	margin: 7vw;
 }
 
 .column-responsive-image {
@@ -323,15 +326,15 @@ header li {
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: bold;
-	font-size: calc(.1rem + 2vw);
-	padding: 2vw 2vw;
+	font-size: calc(.1rem + 1vw);
+	padding: 2vw;
 }
 
 .column-responsive-image p {
 	font-family: Times New Roman;
 	font-style: normal;
-	padding: 2vh 2vw;
-    font-size: calc(.1rem + 2vw);
+   font-size: calc(.1rem + 1vw);
+	padding: 2vw;
 }
 
 .column-img1 {
