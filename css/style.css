@@ -295,7 +295,7 @@ header li {
 
 /* homework four (responsive) starting*/
 
-html{
+html {
 	font-size: 20px;
 }
 .responsive-header {
@@ -326,14 +326,14 @@ html{
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: bold;
-	font-size: calc(.1rem + 1vw);
+	font-size: calc(0.1rem + 1vw);
 	padding: 2vw;
 }
 
 .column-responsive-image p {
 	font-family: Times New Roman;
 	font-style: normal;
-   font-size: calc(.1rem + 1vw);
+	font-size: calc(0.1rem + 1vw);
 	padding: 2vw;
 }
 
@@ -478,3 +478,128 @@ html{
 		color: #ffffff;
 	}
 }
+
+/* homework six (adaptive form) starting*/
+
+* {
+	box-sizing: border-box;
+}
+
+.header-form {
+	display: flex;
+	width: 100%;
+	background-color: #f8bfc7;
+	justify-content: space-between;
+}
+
+.block-one {
+	display: flex;
+	width: 100%;
+	padding: 20px;
+}
+.block-one p {
+	padding: 30px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.block-two {
+	display: flex;
+	justify-content: right;
+	flex-shrink: 4;
+	width: 100%;
+	padding: 20px;
+}
+
+.block-two p {
+	padding: 30px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.main-form {
+	display: flex;
+	padding-bottom: 10%;
+	background: url("../img/background-form.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container-form {
+	width: 300px;
+	height: 362px;
+	margin: 90px 90px;
+	background-color: #f8bfc7;
+	border: 3px solid #ffffff;
+	border-radius: 20px;
+}
+
+.set-form {
+	padding: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+input {
+	font-size: 15px;
+	color: white;
+	display: block;
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	color: inherit;
+	outline: none;
+}
+
+input:focus {
+	background-color: #f8bfc7;
+}
+
+input::-webkit-input-placeholder {
+	color: white;
+}
+
+input[type="submit"] {
+	margin: 40px auto;
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	color: white;
+	background-color: #feb700;
+	border: 3px solid #ffffff;
+	border-radius: 30px;
+}
+
+input[type="submit"]:hover {
+	background-color: #da9c02;
+	color: white;
+}
+
+label {
+	line-height: 2.8rem;
+}
+
+.footer-form {
+	display: flex;
+	width: 100%;
+	background-color: #f8bfc7;
+	justify-content: space-between;
+}
+
+.footer-form p {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+	.block-one {
+		display: none;
+	}
+}
+
