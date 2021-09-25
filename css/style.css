@@ -582,6 +582,7 @@ label {
 	line-height: 2.8rem;
 }
 
+
 .footer-form {
 	display: flex;
 	width: 100%;
@@ -623,9 +624,21 @@ label {
 	.main-form {
 		display: flex;
 		padding-bottom: 10%;
-		background: url("../img/background-form.png");
+		background: none;
+		background-color: #ffffff;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+	}
+
+	.img-two {
+		display: flex;
+		margin: auto;
+		background: url("../img/YellowCat.gif");
+		width: 200px;
+		height: 200px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 }
