@@ -606,7 +606,7 @@ label {
 @media screen and (max-width: 480px) {
 	.container-form {
 		display: flex;
-		margin: 90px 80px;
+		margin: 80px;
 		background-color: #f8bfc7;
 		border: 3px solid #ffffff;
 		border-radius: 20px;
@@ -631,22 +631,30 @@ label {
 	}
 
 	.img-two {
-		z-index: 5;
-		display: flex;
 		margin: auto;
 		background: url("../img/YellowCat.gif");
 		width: 200px;
 		height: 200px;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;
+		
 	}
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 	.container-form {
 		display: flex;
-		margin: 90px 30px;
+		margin:  40px 60px;
+		background-color: #f8bfc7;
+		border: 3px solid #ffffff;
+		border-radius: 20px;
+	}
+}
+
+@media screen and (max-width: 330px){
+	.container-form {
+		display: flex;
+		margin: 30px;
 		background-color: #f8bfc7;
 		border: 3px solid #ffffff;
 		border-radius: 20px;
