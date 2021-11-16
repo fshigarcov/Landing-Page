@@ -49,13 +49,11 @@
 	text-decoration: none;
 }
 
-
 .aboutMe p {
 	background-color: cadetblue;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-size:max(1em, min(4em, calc(100vw * 2 / 75)));
-	line-height: 3.5vw;
 	color: #ffffff;
 	text-align: left;
 	box-sizing: border-box;
@@ -558,6 +556,36 @@ label {
 	font-size: 20px;
 	color: black;
 	font-weight: bold;
+}
+
+@media screen and (max-width: 364px){
+	.header h1 {
+		font-family: Helvetica;
+		font-size:max(2em, min(4em, calc(100vw * 4 / 75)));
+		line-height: 57px;
+		color: #ffffff;
+		text-align: left;
+		box-sizing: border-box;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 364px){
+	.blockLinks {
+		padding: 10px;
+		position: absolute;
+		top: 150px;
+		background: rgba(222, 184, 135, 0);
+		text-align: left;
+		box-sizing: border-box;
+	}
+	.blockLinks {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-gap: 10px;
+		place-items: left;     
+	}
 }
 
 @media screen and (max-width: 720px) {

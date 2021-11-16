@@ -1,13 +1,14 @@
-.blockLinks{
+.blockLinks {
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 30px;
-	place-items: left;
+	place-items: left;     
 }
 
-.img{
+.img {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: 100px 100px;
 }
+
