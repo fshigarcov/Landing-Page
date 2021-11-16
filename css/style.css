@@ -3,15 +3,15 @@
 
 .pageContainer {
 	width: 100%;
+	padding: 10px;
 }
 .header {
-	height: 100%;
 	background: BurlyWood;
 }
 
 .header h1 {
 	font-family: Helvetica;
-	font-size: 3.5vw;
+	font-size:max(2em, min(4em, calc(100vw * 4 / 75)));
 	line-height: 57px;
 	color: #ffffff;
 	text-align: left;
@@ -21,7 +21,6 @@
 
 .nameSurname h1 {
 	font-family: Helvetica;
-	font-size: 50px;
 	line-height: 57px;
 	color: #ffffff;
 }
@@ -32,39 +31,41 @@
 	padding-bottom: 100%;
 }
 .blockLinks {
-	background: BurlyWood;
-	height: 100%;
+	padding: 50px;
+	position: absolute;
+	top: 160px;
+	background: rgba(222, 184, 135, 0);
 	text-align: left;
 	box-sizing: border-box;
-	padding: 30px;
 }
 .blockLinks a {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 1.5vw;
+	font-size:max(1em, min(4em, calc(100vw * 2 / 75)));
 	line-height: 29px;
 	color: #ffffff;
 	text-decoration: none;
 }
+
+
 .aboutMe p {
 	background-color: cadetblue;
-	height: 637px;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
-	font-size: 40px;
-	line-height: 57px;
-	color: #000000;
-	text-align: center;
+	font-size:max(1em, min(4em, calc(100vw * 2 / 75)));
+	line-height: 3.5vw;
+	color: #ffffff;
+	text-align: left;
 	box-sizing: border-box;
-	padding: 30px;
+	padding: 10px;
 }
 .aboutMe h2 {
 	background-color: cadetblue;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 20px;
 	line-height: 57px;
 }
 .footer {
@@ -72,7 +73,7 @@
 	margin: auto;
 	background: BurlyWood;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
 	padding: 50px;
 }
 .imgLogo {
@@ -86,7 +87,7 @@
 .footer p {
 	font-family: Helvetica;
 	font-size: 3.5vw;
-	line-height: 57px;
+
 	color: #ffffff;
 }
 
@@ -444,40 +445,7 @@ html {
 	}
 }
 
-@media screen and (max-width: 600px) {
-	.header h1 {
-		font-family: Helvetica;
-		font-size: 20px;
-		line-height: 57px;
-		color: #ffffff;
-		text-align: left;
-		box-sizing: border-box;
-		padding: 50px;
-	}
-}
 
-@media screen and (max-width: 600px) {
-	.blockLinks a {
-		display: flex;
-		flex-wrap: wrap;
-		font-family: "Roboto", sans-serif;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 10px;
-		line-height: 29px;
-		color: #ffffff;
-		text-decoration: none;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.footer p {
-		font-family: Helvetica;
-		font-size: 20px;
-		line-height: 57px;
-		color: #ffffff;
-	}
-}
 
 /* homework six (adaptive form) starting*/
 
