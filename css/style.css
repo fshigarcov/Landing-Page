@@ -6,7 +6,8 @@
 	padding: 10px;
 }
 .header {
-	background: BurlyWood;
+	background: rgba(222, 184, 135, 0);
+	position: absolute;
 }
 
 .header h1 {
@@ -60,14 +61,7 @@
 	box-sizing: border-box;
 	padding: 10px;
 }
-.aboutMe h2 {
-	background-color: cadetblue;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 57px;
-}
+
 .footer {
 	height: 100%;
 	margin: auto;
