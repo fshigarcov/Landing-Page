@@ -1,5 +1,6 @@
 @import url("reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .pageContainer {
 	width: 100%;
@@ -11,7 +12,7 @@
 }
 
 .header h1 {
-	font-family: 'Hind Madurai', sans-serif;
+	font-family: "Bebas Neue", cursive;
 	font-size: max(2em, min(4em, calc(100vw * 4 / 75)));
 	line-height: 57px;
 	color: #4a7900;
@@ -40,7 +41,7 @@
 	box-sizing: border-box;
 }
 .blockLinks a {
-	font-family: 'Hind Madurai', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: max(1em, min(4em, calc(100vw * 2 / 75)));
@@ -547,13 +548,11 @@ label {
 
 @media screen and (max-width: 364px) {
 	.header h1 {
-		font-family: Helvetica;
 		font-size: max(2em, min(4em, calc(100vw * 4 / 75)));
 		line-height: 57px;
-		
 		text-align: left;
 		box-sizing: border-box;
-		padding: 10px;
+		padding: 30px 0px 0px 10px;
 	}
 }
 
