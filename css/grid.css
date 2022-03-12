@@ -2,13 +2,13 @@
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-gap: 30px;
+	grid-gap: 50px;
 	place-items: left;     
 }
 
 .img {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 100px 100px;
+	grid-template-rows: 200px 100px;
 }
 
