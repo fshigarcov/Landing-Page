@@ -545,6 +545,7 @@ label {
 	font-weight: bold;
 }
 
+
 @media screen and (max-width: 364px) {
 	.header h1 {
 		font-size: max(2em, min(4em, calc(100vw * 4 / 75)));

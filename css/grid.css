@@ -3,7 +3,7 @@
 	grid-template-columns: 100%;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 50px;
-	place-items: left;     
+	place-items: left;
 }
 
 .img {
@@ -12,3 +12,259 @@
 	grid-template-rows: 200px 100px;
 }
 
+/*meduza*/
+
+html,
+body {
+	height: 100%;
+}
+
+.container-meduza {
+	width: 100%;
+	background: black;
+}
+.meduza-head {
+	display: flex;
+	position: relative;
+	width: 100%;
+	max-width: 1335px;
+	margin: 0 auto;
+	justify-content: space-between;
+	text-align: center;
+}
+.img-meduza {
+	background: url("../img/Vector.png");
+	background-repeat: no-repeat;
+	width: 95px;
+	height: 25px;
+	margin: 40px 0px;
+}
+
+.nav-meduza {
+	display: flex;
+	margin: 40px;
+}
+
+.nav-meduza li {
+	font-size: 15px;
+	color: white;
+	font-weight: 700;
+}
+
+.nav-lang {
+	margin: 40px;
+}
+
+.nav-lang li {
+	font-size: 15px;
+	color: white;
+	font-weight: 700;
+}
+.line {
+	position: absolute;
+	left: 1300px;
+	top: 48px;
+	width: 25px;
+	height: 0px;
+	border: 1px solid #ffffff;
+	transform: rotate(90deg);
+}
+
+.ellipse {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+
+.nav-block {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1320px;
+	height: 45px;
+	background: #ffffff;
+	border-radius: 10px;
+}
+
+.nav-block p {
+	box-sizing: border-box;
+	padding: 10px;
+	font-weight: 700;
+	font-size: 17px;
+	color: black;
+}
+
+.nav-block p:nth-child(2) {
+	text-align: right;
+	font-size: 17px;
+	color: #9ca1a9;
+	flex-grow: 1;
+}
+
+.rectangle-nav_block {
+	width: 37px;
+	height: 21px;
+	background: #e6e6e6;
+	border-radius: 25px;
+	margin: 16px;
+}
+
+.ellipse-nav-block_rectangle {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+.meduza-main {
+	width: 1320px;
+	height: 100%;
+	background: #f2f2f2;
+	border-radius: 10px 10px 0px 0px;
+	padding: 60px;
+	margin: 15px auto;
+}
+
+.section-one {
+	margin: 0 auto;
+	width: 1200px;
+	height: 250px;
+	background: #ffffff;
+	border: 5px solid #a37846;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 45px 66px 105px 66px;
+}
+
+.section-one p {
+	text-align: center;
+	font-size: 50px;
+}
+
+.section-one :nth-child(2) {
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 58px 0px 0px 0px;
+}
+
+.section-two {
+	margin: 20px auto;
+	background: #ffffff;
+	border: 1px solid #9ca1a9;
+	box-sizing: border-box;
+	border-radius: 10px;
+	position: relative;
+	width: 1200px;
+	height: 436px;
+}
+
+.section-three {
+	box-sizing: border-box;
+	display: grid;
+	justify-content: center;
+	height: 100%;
+	grid-template-columns: 570px 250px 300px;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+		"grid-one grid-two grid-three"
+		"grid-one grid-four grid-five";
+}
+
+.grid-one {
+	width: 100%;
+	height: 100%;
+	grid-area: grid-one;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin: 30px 0px;
+}
+
+.grid-one p {
+	font-size: 35px;
+}
+
+.grid-one :nth-child(2) {
+	position: absolute;
+	font-size: 10px;
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 220px 0px 0px 0px;
+}
+
+.grid-two {
+	margin: 30px 0px;
+	grid-area: grid-two;
+}
+
+.grid-two p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.grid-two :nth-child(2) {
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 30px 0px 0px 0px;
+}
+
+.grid-three {
+	margin: 30px;
+	grid-area: grid-three;
+}
+
+.grid-three p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.grid-three :nth-child(2) {
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 30px 0px 0px 0px;
+}
+
+.grid-four {
+	margin: 50px 0px 30px;
+	grid-column: 2/2;
+	grid-area: grid-four;
+}
+
+.grid-four p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.grid-four :nth-child(2) {
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 30px 0px 0px 0px;
+}
+
+.grid-five {
+	margin: 50px 30px 0px;
+	grid-column: 3/3;
+
+	grid-area: grid-five;
+}
+
+.grid-five p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.grid-five :nth-child(2) {
+	font-weight: 700;
+	font-size: 15px;
+	color: #9ca1a9;
+	padding: 30px 0px 0px 0px;
+}
