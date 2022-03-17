@@ -7,15 +7,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/hamburgers.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-	<title>bfdb</title>
+	<title>MEDUZA</title>
 </head>
 
 <body>
 	<div class="container-meduza">
 		<header class="meduza-head">
+			<div class="img-meduza"></div>
 			<nav>
 				<ul class="nav-meduza">
 					<li>НОВОСТИ</li>
@@ -30,9 +32,26 @@
 				<ul class="nav-lang">
 					<li>en</li>
 				</ul>
-				<div class="line"></div>
 			</nav>
 		</header>
+		<div class="nav-burger_responce">
+			<nav>
+				<ul class="nav-meduza_responce">
+					<li>НОВОСТИ</li>
+					<li>ИСТОРИИ</li>
+					<li>РАЗБОР</li>
+					<li>ИГРЫ</li>
+					<li>ШАПИТО</li>
+					<li>ПОДКАСТЫ</li>
+				</ul>
+			</nav>
+			<nav>
+		</div>
+		<button class="hamburger--squeeze" type="button">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</button>
 		<div class="nav-block">
 			<p>$ 63,33 € 72,22</p>
 			<p>ПОКАЗЫВАТЬ ПО ПОРЯДКУ</p>
@@ -41,6 +60,13 @@
 			</span>
 		</div>
 		<main class="meduza-main">
+			<div class="nav-block_response">
+				<p>$ 63,33 € 72,22</p>
+				<p>ПОКАЗЫВАТЬ ПО ПОРЯДКУ</p>
+				<span class="rectangle-nav_block">
+					<span class="ellipse-nav-block_rectangle"></span>
+				</span>
+			</div>
 			<section class="section-one">
 				<div class="block-corruption">
 					<p>Владимир Путин подал иск к Фонду борьбы с коррупцией</p>
@@ -218,7 +244,30 @@
 			</div>
 			<div class="line-footer"></div>
 		</footer>
+		
 	</div>
+	<script>
+		let hamburger = document.querySelector(".hamburger--squeeze");
+		hamburger.addEventListener("click", function() {
+		hamburger.classList.toggle("is-active");
+	});
+
+	document.querySelector('button').addEventListener('click', function(){
+  let div = document.querySelector('.meduza-main')
+  div.style.display = div.style.display === 'none' ? 'block' : 'none'
+})
+
+/*let btn = document.getElementById("button")
+let div = document.getElementById(".meduza-main")
+
+btn.addEventListener("click", () => {
+  if (div.style.display === "block") {
+    div.style.display = "none"
+  } else {
+    div.style.display = "block"
+  }
+})*/
+	 </script>
 </body>
 
 </html>
