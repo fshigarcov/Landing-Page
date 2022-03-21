@@ -933,7 +933,6 @@ label {
 
 	.nav-meduza {
 		display: none;
-		margin: 40px;
 	}
 
 	.nav-lang {
@@ -980,7 +979,7 @@ label {
 	}
 
 	.nav-burger_responce {
-		display: flex;
+		display: none;
 		position: relative;
 		max-width: 1320px;
 		margin: 0 auto;

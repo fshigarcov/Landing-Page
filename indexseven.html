@@ -254,19 +254,21 @@
 
 		document.querySelector('button').addEventListener('click', function () {
 			let div = document.querySelector('.meduza-main')
+			let nav = document.querySelector('.nav-burger_responce')
 			div.style.display = div.style.display === 'none' ? 'block' : 'none'
+			nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex'
 		})
 
-		/*let btn = document.getElementById("button")
-		let div = document.getElementById(".meduza-main")
-		
-		btn.addEventListener("click", () => {
-		  if (div.style.display === "block") {
-			 div.style.display = "none"
-		  } else {
-			 div.style.display = "block"
-		  }
-		})*/
+		/*	let btn = document.getElementById('button')
+			let div = document.getElementById('.nav-meduza_responce')
+	
+		btn.addEventListener('click', () => {
+				if (div.style.display === 'none') {
+					div.style.display === 'flex'
+				} else {
+					div.style.display = 'flex'
+				}
+			})*/
 	</script>
 </body>
 
