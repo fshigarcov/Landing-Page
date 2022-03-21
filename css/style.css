@@ -834,12 +834,12 @@ label {
 }
 
 .line-footer {
-	width: 1040px;
+	max-width: 1040px;
 	border: 1px solid #ffffff;
 	margin: 50px auto;
 }
 
-@media all and (max-width: 1260px) {
+@media all and (max-width: 1200px) {
 	.section-three {
 		box-sizing: border-box;
 		display: grid;
@@ -906,6 +906,7 @@ label {
 
 @media all and (max-width: 992px) {
 	.section-three {
+		max-width: 100%;
 		box-sizing: border-box;
 		display: grid;
 		justify-content: center;

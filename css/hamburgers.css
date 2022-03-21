@@ -6,6 +6,7 @@
  * @link https://github.com/jonsuh/hamburgers
  */
  .hamburger--squeeze {
+  border: 1px solid red;
   position: absolute;
   top: 30px;
   right: 20px;
