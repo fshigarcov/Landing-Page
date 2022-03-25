@@ -627,8 +627,7 @@ label {
 }
 
 .nav-block_response {
-	visibility: none;
-	display: flex;
+	display: none;
 	position: relative;
 	align-items: center;
 	justify-content: space-between;
@@ -638,7 +637,6 @@ label {
 	background: #fdfdfd;
 	border-radius: 10px;
 }
-
 
 .rectangle-nav_block {
 	width: 37px;
@@ -697,8 +695,7 @@ label {
 	box-sizing: border-box;
 	border-radius: 10px;
 	position: relative;
-	max-width: 1200px;
-	height: 100%;
+	max-width: 100%;
 }
 
 .section-three {
@@ -912,9 +909,7 @@ label {
 
 @media all and (max-width: 992px) {
 	.section-one p {
-		font-family: "Roboto", sans-serif;
-		text-align: center;
-		font-size: 25px;
+		font-size: 30px;
 	}
 
 	.section-three {
@@ -935,11 +930,6 @@ label {
 	}
 
 	.grid-one :nth-child(2) {
-		text-align: center;
-		font-size: 10px;
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
 		top: 10%;
 		right: 40%;
 	}
@@ -968,27 +958,11 @@ label {
 
 	.nav-block {
 		display: none;
-		position: relative;
-		align-items: center;
-		justify-content: space-between;
-		margin: 0 auto;
-		max-width: 1320px;
-		height: 45px;
-		background: #ffffff;
-		border-radius: 10px;
 	}
 
 	.nav-block_response {
 		display: flex;
 		visibility: visible;
-		position: relative;
-		align-items: center;
-		justify-content: space-between;
-		margin: 0px 0px 10px 0px;
-		max-width: 1320px;
-		height: 45px;
-		background: #ffffff;
-		border-radius: 10px;
 	}
 
 	.nav-burger_responce {
@@ -1044,53 +1018,39 @@ label {
 	}
 }
 
-@media all and (max-width: 508px){
-	.meduza-main{
+@media all and (max-width: 508px) {
+	.meduza-main {
 		padding: 0px;
 	}
 }
 
 @media all and (max-width: 478px) {
-	.nav-block_response :nth-child(1){
+	.nav-block_response :nth-child(1) {
 		display: none;
-		
 	}
-	.nav-block_response{
+	.nav-block_response {
 		margin: auto;
 		text-align: center;
 	}
 
-	.nav-block_response p{
+	.nav-block_response p {
 		font-size: 20px;
 	}
 
-	.rectangle-nav_block{
+	.rectangle-nav_block {
 		display: none;
 	}
 
 	.section-one {
-		margin: 0 auto;
-		max-width: 1200px;
-		height: 100%;
-		background: #ffffff;
-		border: 5px solid #a37846;
-		box-sizing: border-box;
-		border-radius: 10px;
-		box-sizing: border-box;
-		padding: 10px;
+		padding: 20px;
 	}
-	
+
 	.section-one p {
-		font-family: "Roboto", sans-serif;
-		text-align: center;
-		font-size: 20px;
+		font-size: 30px;
 	}
-	
+
 	.section-one :nth-child(2) {
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
-		padding: 58px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 
 	.section-three {
@@ -1100,7 +1060,7 @@ label {
 		justify-content: center;
 		padding: 10px;
 		grid-template-columns: 1fr;
-		grid-template-rows: 100px 1fr 1fr 1fr;
+		grid-template-rows: 200px 1fr 1fr 1fr;
 		grid-template-areas:
 			"grid-one"
 			"grid-one"
@@ -1110,84 +1070,55 @@ label {
 			"grid-five";
 	}
 
-	.grid-one {
-		max-width: 100%;
-		height: 100%;
-		grid-area: grid-one;
-		grid-row-start: 1;
-		grid-row-end: 2;
-		padding: 0px 0px;
-	}
-
 	.grid-one p {
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	.grid-one :nth-child(2) {
-		position: absolute;
-		font-size: 10px;
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
-		padding: 100px 0px 0px 0px;
+		padding: 200px 0px 0px 0px;
+		right: 38%;
 	}
 
 	.grid-two {
-		margin: 0px 0px;
+		margin: 0px auto;
 		grid-area: grid-two;
 	}
 
 	.grid-two p {
 		font-weight: 400;
-		font-size: 20px;
+		font-size: 23px;
 	}
 
 	.grid-two :nth-child(2) {
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
 		padding: 10px 0px 0px 0px;
 	}
 
 	.grid-three {
-		margin: 0px;
-		grid-area: grid-three;
+		margin: 10px;
 	}
 
 	.grid-three p {
-		font-weight: 400;
-		font-size: 20px;
+		font-size: 23px;
 	}
 
 	.grid-three :nth-child(2) {
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
 		padding: 10px 0px 0px 0px;
 	}
 
 	.grid-four {
-		margin: 0px 0px 30px;
-		grid-column: 2/2;
-		grid-area: grid-four;
+		margin: 10px;
 	}
 
 	.grid-four p {
-		font-weight: 400;
-		font-size: 20px;
+		font-size: 23px;
 	}
 
 	.grid-four :nth-child(2) {
-		font-weight: 700;
-		font-size: 15px;
-		color: #9ca1a9;
 		padding: 10px 0px 0px 0px;
 	}
 
 	.grid-five {
-		margin: 0px 30px 0px;
-		grid-column: 3/3;
-		grid-area: grid-five;
+		margin: 10px;
 	}
 
 	.grid-five p {
@@ -1305,7 +1236,6 @@ label {
 	}
 }
 /*MEDUZA END*/
-
 
 @media screen and (max-width: 364px) {
 	.header h1 {
