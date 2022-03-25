@@ -4,6 +4,7 @@
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 50px;
 	place-items: left;
+	
 }
 
 .img {
